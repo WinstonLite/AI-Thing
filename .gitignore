@@ -1,0 +1,26 @@
+# IDE and OS specific files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Java / Maven specific (for the 'demo' folder)
+/demo/target/
+/demo/pom.xml.tag
+/demo/pom.xml.releaseBackup
+/demo/pom.xml.versionsBackup
+/demo/pom.xml.next
+/demo/release.properties
+/demo/dependency-reduced-pom.xml
+/demo/build-log.txt
+/demo/hs_err_pid*
+
+# Node / Vite specific (for the 'ai-frontend' folder)
+/ai-frontend/node_modules/
+/ai-frontend/dist/
+/ai-frontend/.env.local
+/ai-frontend/.env.*.local
+/ai-frontend/npm-debug.log*
+/ai-frontend/yarn-debug.log*
+/ai-frontend/yarn-error.log*
